@@ -1,0 +1,13 @@
+exp,model,input,test,acc,macro_f1
+rq12,tfidf-word,response,test,0.5863095238095238,0.5832320632674236
+rq12,tfidf-char,response,test,0.6614583333333334,0.6598779336067198
+rq12,tfidf-word,prompt,test,0.2261904761904762,0.22596033813195476
+rq12,tfidf-char,prompt,test,0.22767857142857142,0.22772256634017332
+rq12,tfidf-word,both,test,0.5803571428571429,0.5760269462689731
+rq12,tfidf-char,both,test,0.6339285714285714,0.632506036203335
+rq3-holdout-coding,tfidf-char,response,in_domain,0.6571187868576243,0.6573370785899306
+rq3-holdout-coding,tfidf-char,response,held_out_task,0.6205389657683904,0.6145172145314242
+rq3-holdout-creative,tfidf-char,response,in_domain,0.6581196581196581,0.6590937629486712
+rq3-holdout-creative,tfidf-char,response,held_out_task,0.5860989355040701,0.5786325074897121
+rq3-holdout-math,tfidf-char,response,in_domain,0.6555290373906125,0.6545089316924056
+rq3-holdout-math,tfidf-char,response,held_out_task,0.5460385438972163,0.5382442428374681

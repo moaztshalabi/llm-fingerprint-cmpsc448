@@ -1,0 +1,13 @@
+Input,Model,Accuracy,Macro-F1
+Output only,TF-IDF word + LogReg,0.586,0.583
+Output only,TF-IDF char + LogReg,0.661,0.660
+Output only,TextCNN,0.635 ± 0.003,0.636 ± 0.006
+Output only,BiLSTM+attention,0.608 ± 0.003,0.609 ± 0.003
+Input only,TF-IDF word + LogReg,0.226,0.226
+Input only,TF-IDF char + LogReg,0.228,0.228
+Input only,TextCNN,0.216 ± 0.016,0.207 ± 0.017
+Input only,BiLSTM+attention,0.221 ± 0.010,0.218 ± 0.011
+Input + output,TF-IDF word + LogReg,0.580,0.576
+Input + output,TF-IDF char + LogReg,0.634,0.633
+Input + output,TextCNN,0.627 ± 0.005,0.630 ± 0.009
+Input + output,BiLSTM+attention,0.596 ± 0.010,0.602 ± 0.012
